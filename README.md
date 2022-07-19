@@ -18,14 +18,14 @@ Clone esse projeto em seu computador com o comando (Chave SSH necessária):
 
 ```bash
 #!/bin/bash
-$ git clone git@github.com:IvanBorba/blue-hamburgueria.git
+$ git clone git.github.com/nenooffice/projeto-M4.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
 #!/bin/bash
-$ cd blue-hamburgueria
+$ cd projeto-M4
 ```
 
 Instale as dependências com o seguinte comando:
