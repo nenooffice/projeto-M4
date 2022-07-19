@@ -52,7 +52,7 @@ DATABASE_URL="postgresql://postgres:admin@localhost:5432/projeto1"
 
 ## Funcionalidades
 
-Para acessar a lista de endpoints e funcionalidades da aplicação, acesse nossa documentação do [Swagger](), lá você poderá testar todas as rotas.
+Para acessar a lista de endpoints e funcionalidades da aplicação, acesse nossa documentação do [Swagger](http://localhost:3333/docs/#/), lá você poderá testar todas as rotas.
 
 Você também pode analisar nosso <a href="./db.pdf" download>Diagrama de Relacionamento de Entidades</a>
 

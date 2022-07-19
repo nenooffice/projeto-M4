@@ -6,7 +6,7 @@ export class CreateProductDto {
   @IsNotEmpty()
   @ApiProperty({
     description: 'Nome do produto',
-    example: 'Hamburguer Bacon XL',
+    example: 'Hamburguer X Egg',
   })
   name: string;
 
@@ -14,8 +14,7 @@ export class CreateProductDto {
   @IsNotEmpty()
   @ApiProperty({
     description: 'Descrição do produto',
-    example:
-      'Hamburguer de carne bovina grelhada com bacon, queijo e molho especial.',
+    example: 'Hamburguer de carne bovina grelhada com ovo e maionese.',
   })
   description: string;
 
@@ -24,7 +23,7 @@ export class CreateProductDto {
   })
   @ApiProperty({
     description: 'Preço do produto',
-    example: 21.99,
+    example: 24.99,
   })
   price: number;
 
@@ -38,7 +37,7 @@ export class CreateProductDto {
   @IsUUID()
   @ApiProperty({
     description: 'Id da categoria do produto',
-    example: '08cf6bcd-9ce2-4d7b-8982-3b5b3fe601d5',
+    example: '38fcf57a-07b9-11ed-861d-0242ac120002',
   })
   categoryId: string;
 }
