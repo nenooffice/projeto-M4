@@ -1,9 +1,8 @@
 # Hamburgueria Blue
 
-Projeto Desenvolvido em conjunto com a turma C013 da Blue EdTech.
-Desenvolvemos ele com o intuito de aprender os conceitos para trabalhar com Nest.js + Prisma.
+Projeto desenvolvido para entrega do Módulo 4 da Blue EdTech.
 <br/>
-Trabalhamos também com conceitos de autenticação, filtragem de buscas, documentação de projetos e bancos de dados relacionais.
+Neste projeto você encontrará conceitos de autenticação, filtragem de buscas, documentação de projetos e bancos de dados relacionais.
 
 ## Pré-requisitos
 
