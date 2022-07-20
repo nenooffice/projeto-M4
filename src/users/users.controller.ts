@@ -14,8 +14,7 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { User } from './entities/users.entity';
 import { UsersService } from './users.service';
-@UseGuards(AuthGuard())
-@ApiBearerAuth()
+
 @ApiTags('users')
 @Controller('users')
 export class UsersController {
@@ -29,6 +28,8 @@ export class UsersController {
     return this.usersService.create(dto);
   }
 
+  @UseGuards(AuthGuard())
+  @ApiBearerAuth()
   @Get()
   @ApiOperation({
     summary: 'Lista todos os usuários',
@@ -38,6 +39,8 @@ export class UsersController {
   }
 
   @Get(':id')
+  @UseGuards(AuthGuard())
+  @ApiBearerAuth()
   @ApiOperation({
     summary: 'Lista usuário por id',
   })
@@ -46,6 +49,8 @@ export class UsersController {
   }
 
   @Patch(':id')
+  @UseGuards(AuthGuard())
+  @ApiBearerAuth()
   @ApiOperation({
     summary: 'Atualizar um usuário',
   })
